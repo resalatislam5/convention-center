@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>convention center</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <header>
@@ -83,7 +83,7 @@
               </div>
         </section>
         <!-- Every moment -->
-        <section class="mt-5">
+        <section class="my-5">
             <div class="container">
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-6">
@@ -92,11 +92,20 @@
                     <div class="col-lg-6 ">
                         <h1 class="pb-3">Every moment is Precious</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <div class="callout border-start border-primary border-3 bg-white p-2 float-end ">
-                            <img src="images/icons/Vector.svg" alt="">
+                        <!-- <div class="callout  border-start border-primary border-3 bg-white p-2 w-50 float-end">
+                            <img src="images/icons/Vector.svg" alt="" class="pe-2">
                             20% off on next booking
                             <button type="button" class="btn-close" aria-label="Close"></button>
-                        </div>
+                        </div> -->
+                        <div class="toast align-items-center border-0 border-start border-primary border-5 d-inline-block float-end" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="d-flex">
+                              <div class="toast-body">
+                                <img src="images/icons/Vector.svg" alt="" class="pe-2">
+                                20% off on next booking
+                              </div>
+                              <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                            </div>
+                          </div>
                         <a name="" id="" class="btn btn-primary mt-3 py-2" href="#" role="button">Explore our album <i class="fa-solid fa-right-long ps-3 pe-2"></i></a>
                     </div>
                     
@@ -104,12 +113,86 @@
             </div>
         </section>
         <!-- Our package -->
-        <section>
+        <section class="py-5">
             <h1 class="text-center">Our package</h1>
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-xxl-3 col-xl-6">
+                        <div class="card bg-light border-0" style="width: 18rem;">
+                            <div class="card-body package_hover">
+                              <h1 class="card-title mb-2 fw-bolder">$300</h1>
+                              <h3 class="card-subtitle mb-2 fw-bold package_hover_color">Business fair</h3>
+                              <p class="card-text text-secondary package_hover_color">For most businesses event 
+                                like book fair, craft fair.</p>
+                                <ul class="p-0 text-secondary">
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>limited space access</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>Secuirty facility</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>event support</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>Decoration design</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>Per day bill</li>
+                                  </ul>
+                                  <a name="" id="Choose_plan" class="btn px-5 py-2 text-primary fw-bold rounded-5 border-0 mt-3 package_hover_bg" href="#" role="button">Choose plan</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-6">
+                        <div class="card bg-light border-0" style="width: 18rem;">
+                            <div class="card-body package_hover">
+                              <h1 class="card-title mb-2 fw-bolder">$500</h1>
+                              <h3 class="card-subtitle mb-2 fw-bold package_hover_color">wedding basic</h3>
+                              <p class="card-text text-secondary package_hover_color">For weddings with basic plan
+                                and limited item</p>
+                                <ul class="p-0 text-secondary">
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>Full space access</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>Food arrangement</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>mangement support</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>Decoration design</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>Billed as shift</li>
+                                  </ul>
+                                  <a name="" id="Choose_plan" class="btn px-5 py-2 text-primary fw-bold rounded-5 border-0 mt-3 package_hover_bg" href="#" role="button">Choose plan</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class=" col-xxl-3 col-xl-6">
+                        <div class="card bg-light border-0" style="width: 18rem;">
+                            <div class="card-body Wedding_plus">
+                              <h1 class="card-title mb-2 fw-bolder">$800</h1>
+                              <h3 class="card-subtitle mb-2 fw-bold Wedding_color">Wedding plus</h3>
+                              <p class="card-text text-secondary Wedding_color">For most weddings with
+                                 premium plans </p>
+                                <ul class="p-0 text-secondary ">
+                                    <li class="list-group-item Wedding_color"><i class="fa-solid fa-circle-check text-primary pe-2 Wedding_color"></i>Full space access</li>
+                                    <li class="list-group-item Wedding_color"><i class="fa-solid fa-circle-check text-primary pe-2 Wedding_color"></i>Dedicated team</li>
+                                    <li class="list-group-item Wedding_color"><i class="fa-solid fa-circle-check text-primary pe-2 Wedding_color"></i>Buffet food</li>
+                                    <li class="list-group-item Wedding_color"><i class="fa-solid fa-circle-check text-primary pe-2 Wedding_color"></i>premium Decoration</li>
+                                    <li class="list-group-item Wedding_color"><i class="fa-solid fa-circle-check text-primary pe-2 Wedding_color"></i>pay as plan</li>
+                                  </ul>
+                                  <a name="" id="Choose_plan" class="btn px-5 py-2 text-primary fw-bold  rounded-5 border-0 mt-3 Wedding_bg" href="#" role="button">Choose plan</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-6">
+                        <div class="card bg-light border-0" style="width: 18rem;">
+                            <div class="card-body package_hover">
+                              <h1 class="card-title mb-2 fw-bolder">$800</h1>
+                              <h3 class="card-subtitle mb-2 fw-bold package_hover_color"> Corporate event </h3>
+                              <p class="card-text text-secondary package_hover_color">For most corporate business events </p>
+                                <ul class="p-0 text-secondary">
+                                    <li class="list-group-item package_hover_color "><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>Full space access</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>Dedicated team</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>Buffet food</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>premium Decoration</li>
+                                    <li class="list-group-item package_hover_color"><i class="fa-solid fa-circle-check text-primary pe-2 package_hover_color"></i>pay as plan</li>
+                                  </ul>
+                                  <a name="" id="Choose_plan" class="btn px-5 py-2 text-primary fw-bold rounded-5 border-0 mt-3 package_hover_bg" href="#" role="button">Choose plan</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
       </main>
-
 
 
 

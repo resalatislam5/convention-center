@@ -4,3 +4,44 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+#Choose_plan{
+    background-color: #f496d27e;
+}
+.package_hover:hover{
+    background-color: #3F87F5;
+    height: 480px;
+    max-width: 292px;
+    width: 100%; 
+    border-radius: 26px;
+    margin: 0 auto;
+    padding: 12%;
+}
+.package_hover:hover h1{
+    color: #fff ;
+}
+.package_hover:hover .package_hover_color{
+    color: #fff !important;
+}
+.package_hover:hover .package_hover_bg{
+    background-color: #fff !important;
+}
+
+.Wedding_plus{
+    background-color: #3F87F5;
+    height: 480px;
+    max-width: 292px;
+    width: 100%; 
+    border-radius: 26px;
+    margin: 0 auto;
+    padding: 15%;
+
+}
+.Wedding_plus h1,p{
+    color: #fff ;
+}
+.Wedding_color{
+    color: #fff!important;
+}
+.Wedding_bg{
+    background-color: #fff !important;
+}
