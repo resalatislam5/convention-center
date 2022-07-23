@@ -3,6 +3,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
 }
 #Choose_plan{
     background-color: #f496d27e;
@@ -36,7 +37,7 @@ body{
     padding: 15%;
 
 }
-.Wedding_plus h1,p{
+.Wedding_plus h1{
     color: #fff ;
 }
 .Wedding_color{
