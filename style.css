@@ -5,6 +5,15 @@ body{
     font-family: 'Poppins', sans-serif;
     line-height: 1.5em;
 }
+.accordion-button{
+    outline: unset;
+    box-shadow: unset;
+}
+.fa-google-play{
+    margin-left: -48px;
+}
+
+
 #Choose_plan{
     background-color: #f496d27e;
 }
